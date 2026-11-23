@@ -51,3 +51,16 @@ elif(username!='admin'):
     print('Wrong username')
 else : 
     print('Wrong password')
+
+#  Nesting condition:  condition inside the other condition
+
+number1=int(input('Enter the first number : '))
+operator=input(' what operatio you want to do: ')
+number2=int(input('Enter the second number : '))
+
+if (operator=='+'):
+    print(number1+number2)
+elif (operator=='-'):
+    print(number1-number2)
+elif (operator=='*'):
+    print(number1*number2)
